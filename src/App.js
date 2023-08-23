@@ -45,7 +45,7 @@ function App() {
     <div className=" row ">
       {
         filtered.length > 0 && filtered.map((x,i)=>{
-         return( <Cards key={i} img={x.thumbnail} rating={x.rating} title={x.title} price={x.price}  className={"col-md-3 col-sm-6 col-12"} />)
+         return( <Cards key={i} img={x.thumbnail} rating={x.rating} title={x.title} price={x.price} category={x.category} className={"col-md-3 col-sm-6 col-12"} />)
         })
       }
     </div>

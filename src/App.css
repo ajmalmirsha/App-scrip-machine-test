@@ -9,6 +9,8 @@
 
 .pro-img {
   height: 230px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .title {
@@ -23,3 +25,35 @@
   text-overflow: ellipsis;
   max-width: 200px;
 }
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-div {
+  position: absolute;
+  color: white;
+  padding: 5px;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  padding: 0.5px;
+}
+
+
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  padding: 0.5px;
+}
+
